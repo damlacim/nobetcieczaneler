@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/dp_12"
+    android:paddingTop="@dimen/dp_12">
+
+    <RelativeLayout
+        android:id="@+id/lytPharmacyItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadow_drawable"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/TextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPharmacyAddress"
+            android:layout_alignParentEnd="true"
+            android:layout_marginVertical="@dimen/dp_12"
+            android:layout_marginEnd="@dimen/dp_24"
+            android:text="@string/location"
+            android:textColor="@color/base_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivPharmacyLogo"
+            android:layout_width="49dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dp_16"
+            android:layout_marginEnd="@dimen/dp_16"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/tvPharmacyName"
+            style="@style/TextBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ivPharmacyLogo"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/dp_16"
+            android:layout_toEndOf="@+id/ivPharmacyLogo"
+            android:textColor="@color/base_color" />
+
+        <TextView
+            android:id="@+id/tvPharmacyAddress"
+            style="@style/TextMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPharmacyName"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/dp_12"
+            android:layout_toEndOf="@+id/ivPharmacyLogo"
+            android:lineSpacingExtra="1sp" />
+
+        <TextView
+            style="@style/TextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPharmacyAddress"
+            android:layout_alignParentEnd="true"
+            android:layout_marginVertical="@dimen/dp_12"
+            android:layout_marginEnd="@dimen/dp_24"
+            android:text="@string/location"
+            android:textColor="@color/base_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Nöbetçi\n Eczaneler</string>
+    <string name="result_header_desc">Nöbetçi Eczaneler</string>
+
+    <!--Selection Error Texts-->
+    <string name="selection_error_title">Şehir Seçimi Yapmadınız</string>
+    <string name="selection_error_desc">Arama yapmak istediğiniz şehri seçiniz.</string>
+
+    <!--Connection Error Texts-->
+    <string name="no_internet_title">İnternet Bağlantısı Bulunamadı</string>
+    <string name="no_internet_desc">Lütfen İnternet Bağlantınızı Kontrol Edin</string>
+    <string name="open_internet_settings">İnternet Ayarlarına Git</string>
+
+    <!--Button Texts-->
+    <string name="close">Kapat</string>
+    <string name="okay">Tamam</string>
+    <string name="cancel">İptal</string>
+    <string name="location">Konum</string>
+    <string name="search">Ara</string>
+    <string name="pharmacy">ECZANESİ</string>
+
+    <!--Not Found Texts-->
+    <string name="not_found_title">Sonuç bulunamadı.</string>
+    <string name="not_found_message">Aradığınız kriterlere uygun sonuç bulunamadı.</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
